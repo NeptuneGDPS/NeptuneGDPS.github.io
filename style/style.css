@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Pusab';
+	src: url(../font/pusab.ttf);
+}
+@font-face {
+	font-family: 'Logo';
+	src: url(../font/logo.ttf);
+}
+
+body {
+    background: linear-gradient(90deg, #0000df, #6518FF);
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    text-decoration: none;
+    font-family: Pusab;
+    color: #f5f500;
+}
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, a:hover {
+    color: #0464CC;
+}
+
+.url {
+    font-size: 64px;
+}
+
+.bg {
+    background: #50D0FF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bg:hover {
+    background: #f5f500;
+}
+
+.center {
+    text-align: center;
+}
+
+.ds {
+    width: 375px;
+    height: 211px;
+}
+
+.logo {
+    font-family: "logo";
+    font-size: 100px;
+}
